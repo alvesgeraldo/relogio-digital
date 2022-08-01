@@ -19,11 +19,6 @@ let formato = 24;
         intervalo = 'PM';
       }
 
-      // teste correção bug
-      if(hora >= 12 && formato == 24){
-        hora = String(data.getHours()).padStart(2, '0');
-      }
-
       if(hora == 0 && formato == 12){
         hora = 12;
       }
