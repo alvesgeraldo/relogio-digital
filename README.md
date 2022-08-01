@@ -1,2 +1,2 @@
-# relogio-digital
- Relógio Digital desenvolvido com JavaScript
+# relogio-js
+ Relogio Digital desenvolvido em JS
