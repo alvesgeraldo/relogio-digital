@@ -49,3 +49,9 @@ button:focus {
   border: 1px solid red;
   outline: none;
 }
+
+#calendario {
+  font-size: 40px;
+  line-height: 40px;
+  padding: 0;
+}
