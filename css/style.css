@@ -84,3 +84,21 @@ button:focus {
 #visor { 
   margin-bottom: 5px;
 }
+
+@media (max-width: 576px) { 
+  
+  #visorRelogio {
+    width: 80%;
+    font-size: 70px; 
+  }
+
+  #calendario {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #clima {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
