@@ -1,6 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
 @font-face {
   font-family: 'DS-Digital';
   src: url('../fonts/DS-DIGII.TTF') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'wwDigital';
+  src: url('../fonts/wwDigital.ttf') format('truetype');
   font-weight: normal;
 }
 
@@ -25,6 +37,11 @@ body{
 
 h2, h3{
   text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 50px;
 }
 
 #botoes{
@@ -54,4 +71,10 @@ button:focus {
   font-size: 40px;
   line-height: 40px;
   padding: 0;
+}
+
+#clima {
+  font-family: 'wwDigital', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
 }
