@@ -1,7 +1,7 @@
 let data = new Date();
 
 let dia = String(data.getDate()).padStart(2, '0');
-let mes = String(data.getMonth()).padStart(2, '0');
+let mes = String(data.getMonth() + 1).padStart(2, '0');
 let ano = data.getFullYear();
 let diaSem = ["Dom","Seg","Ter","Qua","Qui","Sex","Sab"];
 let strDia = diaSem[data.getDay()];
